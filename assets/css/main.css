@@ -1,0 +1,17 @@
+li.icon {
+  list-style: none;
+  margin-bottom: .125em;
+}
+li.icon:before {
+  margin-right: .5em;
+  vertical-align: text-top;
+}
+li.icon.smile:before {
+  content: "🙂";
+}
+li.icon.frown:before {
+  content: "☹";
+}
+li.icon.worry:before {
+  content: "😟";
+}
